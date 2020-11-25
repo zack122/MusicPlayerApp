@@ -5,4 +5,5 @@ public class Song {
     String artistName;
     int imageResource;
     int mp3Resource;
+
 }
