@@ -18,6 +18,7 @@ public class SongViewHolder extends RecyclerView.ViewHolder {
         imageView = itemView.findViewById(R.id.image_view);
         songNameTextView = itemView.findViewById(R.id.song_name_textview);
         artistNameTextView = itemView.findViewById(R.id.artsit_name_textview);
+        selectedBackgorundView = itemView.findViewById(R.id.selected_background_view);
     }
 
     //properties
@@ -25,5 +26,6 @@ public class SongViewHolder extends RecyclerView.ViewHolder {
     ImageView imageView;
     TextView songNameTextView;
     TextView artistNameTextView;
+    View selectedBackgorundView;
 
 }
