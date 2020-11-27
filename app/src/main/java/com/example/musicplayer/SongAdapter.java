@@ -42,11 +42,11 @@ public class SongAdapter extends RecyclerView.Adapter<SongViewHolder> {
         //Set the selected background to be visible/invisible
         if(position == mainActivity.currentSongIndex) {
             //current song index is at this position
-            holder.selectedBackgorundView.setVisibility(View.VISIBLE);
+            holder.selectedBackgroundView.setVisibility(View.VISIBLE);
         }
         else{
             //current song index is not at this position
-            holder.selectedBackgorundView.setVisibility(View.INVISIBLE);
+            holder.selectedBackgroundView.setVisibility(View.INVISIBLE);
         }
 
         //Add button tap handler for this song
