@@ -119,7 +119,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.797"
-        app:srcCompat="@drawable/rightShuffle" />
+        app:srcCompat="@drawable/rightshuffle" />
 
     <ImageButton
         android:id="@+id/repeat_button"
@@ -163,7 +163,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.798"
-        app:srcCompat="@drawable/leftShuffle" />
+        app:srcCompat="@drawable/leftshuffle" />
 
     <ProgressBar
         android:id="@+id/progressBar1"

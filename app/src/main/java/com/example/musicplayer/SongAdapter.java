@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class SongAdapter extends RecyclerView.Adapter<SongViewHolder> {
     //constructor
-    SongAdapter(@NonNull Context context, @NonNull ArrayList<Song> songs, @NonNull MainActivity mainActivity){
+    SongAdapter(@NonNull Context context, @NonNull ArrayList<Song> songs, @NonNull music_main mainActivity){
         this.context = context;
         this.songs = songs;
         this.mainActivity = mainActivity;
